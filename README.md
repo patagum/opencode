@@ -1,7 +1,7 @@
 <h3 align="center">
 <img src="https://user-images.githubusercontent.com/24394276/206763738-8c52853e-9ef0-4aad-8fc8-8b7f070c46bb.png" width="200" alt="logo">
 
-Patagum Theme for %APP%
+Patagum Theme for opencode
 </h3>
 
 <p align="center">

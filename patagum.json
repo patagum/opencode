@@ -1,0 +1,221 @@
+{
+  "$schema": "https://opencode.ai/theme.json",
+  "defs": {
+    "patagum_black": "#1A1A1A",
+    "patagum_foreground": "#F0F0F0",
+    "patagum_red": "#FF6930",
+    "patagum_green": "#62D17E",
+    "patagum_yellow": "#FFBD2B",
+    "patagum_blue": "#2888A6",
+    "patagum_magenta": "#7977CF",
+    "patagum_cyan": "#7DBED1",
+    "patagum_white": "#F0F0F0",
+    "patagum_inactive": "#585B70",
+    "patagum_active": "#7977CF",
+    "patagum_tab_bg": "#181825",
+    "patagum_tab_fg": "#CDD6F4",
+    "patagum_titlebar": "#1A1A1A"
+  },
+  "theme": {
+    "primary": {
+      "dark": "patagum_magenta",
+      "light": "patagum_magenta"
+    },
+    "secondary": {
+      "dark": "patagum_blue",
+      "light": "patagum_blue"
+    },
+    "accent": {
+      "dark": "patagum_cyan",
+      "light": "patagum_cyan"
+    },
+    "error": {
+      "dark": "patagum_red",
+      "light": "patagum_red"
+    },
+    "warning": {
+      "dark": "patagum_yellow",
+      "light": "patagum_yellow"
+    },
+    "success": {
+      "dark": "patagum_green",
+      "light": "patagum_green"
+    },
+    "info": {
+      "dark": "patagum_blue",
+      "light": "patagum_blue"
+    },
+    "text": {
+      "dark": "patagum_foreground",
+      "light": "patagum_black"
+    },
+    "textMuted": {
+      "dark": "patagum_inactive",
+      "light": "patagum_inactive"
+    },
+    "background": {
+      "dark": "patagum_black",
+      "light": "patagum_white"
+    },
+    "backgroundPanel": {
+      "dark": "patagum_titlebar",
+      "light": "patagum_tab_bg"
+    },
+    "backgroundElement": {
+      "dark": "patagum_titlebar",
+      "light": "patagum_tab_bg"
+    },
+    "border": {
+      "dark": "patagum_inactive",
+      "light": "patagum_inactive"
+    },
+    "borderActive": {
+      "dark": "patagum_active",
+      "light": "patagum_active"
+    },
+    "borderSubtle": {
+      "dark": "patagum_inactive",
+      "light": "patagum_inactive"
+    },
+    "diffAdded": {
+      "dark": "patagum_green",
+      "light": "patagum_green"
+    },
+    "diffRemoved": {
+      "dark": "patagum_red",
+      "light": "patagum_red"
+    },
+    "diffContext": {
+      "dark": "patagum_inactive",
+      "light": "patagum_inactive"
+    },
+    "diffHunkHeader": {
+      "dark": "patagum_inactive",
+      "light": "patagum_inactive"
+    },
+    "diffHighlightAdded": {
+      "dark": "patagum_green",
+      "light": "patagum_green"
+    },
+    "diffHighlightRemoved": {
+      "dark": "patagum_red",
+      "light": "patagum_red"
+    },
+    "diffAddedBg": {
+      "dark": "#181825",
+      "light": "#E5E9F0"
+    },
+    "diffRemovedBg": {
+      "dark": "#181825",
+      "light": "#E5E9F0"
+    },
+    "diffContextBg": {
+      "dark": "patagum_titlebar",
+      "light": "patagum_tab_bg"
+    },
+    "diffLineNumber": {
+      "dark": "patagum_inactive",
+      "light": "patagum_inactive"
+    },
+    "diffAddedLineNumberBg": {
+      "dark": "#181825",
+      "light": "#E5E9F0"
+    },
+    "diffRemovedLineNumberBg": {
+      "dark": "#181825",
+      "light": "#E5E9F0"
+    },
+    "markdownText": {
+      "dark": "patagum_foreground",
+      "light": "patagum_black"
+    },
+    "markdownHeading": {
+      "dark": "patagum_magenta",
+      "light": "patagum_magenta"
+    },
+    "markdownLink": {
+      "dark": "patagum_blue",
+      "light": "patagum_blue"
+    },
+    "markdownLinkText": {
+      "dark": "patagum_cyan",
+      "light": "patagum_cyan"
+    },
+    "markdownCode": {
+      "dark": "patagum_green",
+      "light": "patagum_green"
+    },
+    "markdownBlockQuote": {
+      "dark": "patagum_inactive",
+      "light": "patagum_inactive"
+    },
+    "markdownEmph": {
+      "dark": "patagum_yellow",
+      "light": "patagum_yellow"
+    },
+    "markdownStrong": {
+      "dark": "patagum_red",
+      "light": "patagum_red"
+    },
+    "markdownHorizontalRule": {
+      "dark": "patagum_inactive",
+      "light": "patagum_inactive"
+    },
+    "markdownListItem": {
+      "dark": "patagum_magenta",
+      "light": "patagum_magenta"
+    },
+    "markdownListEnumeration": {
+      "dark": "patagum_cyan",
+      "light": "patagum_cyan"
+    },
+    "markdownImage": {
+      "dark": "patagum_blue",
+      "light": "patagum_blue"
+    },
+    "markdownImageText": {
+      "dark": "patagum_cyan",
+      "light": "patagum_cyan"
+    },
+    "markdownCodeBlock": {
+      "dark": "patagum_foreground",
+      "light": "patagum_black"
+    },
+    "syntaxComment": {
+      "dark": "patagum_inactive",
+      "light": "patagum_inactive"
+    },
+    "syntaxKeyword": {
+      "dark": "patagum_blue",
+      "light": "patagum_blue"
+    },
+    "syntaxFunction": {
+      "dark": "patagum_magenta",
+      "light": "patagum_magenta"
+    },
+    "syntaxVariable": {
+      "dark": "patagum_cyan",
+      "light": "patagum_cyan"
+    },
+    "syntaxString": {
+      "dark": "patagum_green",
+      "light": "patagum_green"
+    },
+    "syntaxNumber": {
+      "dark": "patagum_red",
+      "light": "patagum_red"
+    },
+    "syntaxType": {
+      "dark": "patagum_cyan",
+      "light": "patagum_cyan"
+    },
+    "syntaxOperator": {
+      "dark": "patagum_blue",
+      "light": "patagum_blue"
+    },
+    "syntaxPunctuation": {
+      "dark": "patagum_foreground",
+      "light": "patagum_black"
+    }
+  }
+}
